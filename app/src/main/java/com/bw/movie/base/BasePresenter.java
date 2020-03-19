@@ -22,7 +22,7 @@ public abstract class BasePresenter<V> {
     public BasePresenter() {
         initModel();
     }
-    
+
 
     //让子类初始化model
     protected abstract void initModel();
